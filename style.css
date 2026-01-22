@@ -770,3 +770,79 @@ footer {
     margin-bottom: 25px;
   }
 }
+/* ===============================
+   MOBILE FINAL FIX – CARGOVEX
+   =============================== */
+
+@media (max-width: 768px) {
+
+  /* TOP MENU TEXT */
+  header nav a,
+  .nav-links a {
+    font-size: 16px !important;
+    padding: 10px 12px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 26px;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  /* SERVICES – FIX DUPLICATE */
+  .services + .services {
+    display: none !important;
+  }
+
+  .service-box,
+  .service-card {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+
+  /* FOOTER CLEANUP */
+  footer {
+    padding: 30px 20px;
+    text-align: center;
+  }
+
+  footer .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  footer .footer-box {
+    width: 100%;
+    margin: 0;
+  }
+
+  footer h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  footer p,
+  footer a {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* CONTACT BOX */
+  .contact-box {
+    padding: 15px;
+  }
+
+  /* TRACK SECTION IN FOOTER */
+  .track-footer {
+    padding: 20px 0;
+  }
+}
