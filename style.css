@@ -707,3 +707,66 @@ footer {
     font-size: 0.95rem;
   }
 }
+/* ===============================
+   MOBILE FIXES – CARGOVEX
+   =============================== */
+
+@media (max-width: 768px) {
+
+  /* HERO SECTION */
+  .hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .hero p {
+    font-size: 15px;
+  }
+
+  /* SERVICES SECTION */
+  .services {
+    padding: 40px 15px;
+  }
+
+  .service-box,
+  .service-card {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  /* REMOVE DUPLICATE SERVICES SECTION */
+  .services + .services {
+    display: none;
+  }
+
+  /* TRACK SECTION */
+  .track-section {
+    padding: 40px 20px;
+  }
+
+  .track-section h2 {
+    font-size: 22px;
+  }
+
+  /* WHY CHOOSE US */
+  .why-choose {
+    padding: 40px 20px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  footer .footer-box {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
