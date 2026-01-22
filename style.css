@@ -631,3 +631,79 @@ button:hover {
   color: #fff;
   border-radius: 6px;
 }
+/* ===== PROFESSIONAL LOGISTICS DESIGN ===== */
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  line-height: 1.6;
+  color: #222;
+}
+
+/* HERO SECTION */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 15px auto;
+  font-size: 1rem;
+  opacity: 0.95;
+}
+
+/* SERVICES */
+.services {
+  padding: 50px 15px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #f4a000;
+  margin-bottom: 10px;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: #ddd;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+/* MOBILE OPTIMIZATION */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .hero p {
+    font-size: 0.95rem;
+  }
+}
