@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Track Shipment</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <nav class="navbar">
+  <div class="logo">CARGOVEX</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="track.html">Track Shipment</a></li>
+    <li><a href="admin.html">Admin</a></li>
+  </ul>
+</nav>
+<header class="header">
+  <h1>Track Your Shipment</h1>
+  <p>Enter your tracking code to view shipment status</p>
+</header>
+
+<section class="section">
+  <h2>Track Your Shipment</h2>
+
+  <input type="text" id="trackInput" placeholder="Enter Tracking Code" />
+  <br><br>
+
+  <button onclick="trackShipment()">Track</button>
+
+  <p id="result"></p>
+</section>
+
+<div id="result" class="result-box" style="display:none;">
+  <h3>Shipment Status</h3>
+
+  <p><strong>Tracking Code:</strong> <span id="r-code"></span></p>
+  <p><strong>Status:</strong> <span id="r-status"></span></p>
+</div>
+<footer>
+  <p>© 2026 CARGOVEX Cargo Delivery. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Admin Panel</h2>
+
+<input type="text" id="trackingCode" placeholder="Enter Tracking Code" />
+<br><br>
+
+<select id="status">
+  <option value="">Select Status</option>
+  <option value="In Transit">In Transit</option>
+  <option value="On Hold">On Hold</option>
+  <option value="Delivered">Delivered</option>
+</select>
+
+<br><br>
+<button onclick="saveShipment()">Generate Tracking</button>
+
+<script src="script.js"></script>
