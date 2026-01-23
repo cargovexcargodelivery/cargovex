@@ -846,3 +846,105 @@ footer {
     padding: 20px 0;
   }
 }
+/* ===============================
+   MOBILE PROFESSIONAL FIX – CARGOVEX
+   =============================== */
+
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  header nav a {
+    font-size: 16px !important;
+    padding: 12px 10px;
+  }
+
+  header .logo {
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  /* HERO SECTION */
+  .hero,
+  .track-hero {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .hero h1,
+  .track-hero h1 {
+    font-size: 26px;
+    line-height: 1.3;
+  }
+
+  .hero p,
+  .track-hero p {
+    font-size: 15px;
+  }
+
+  .hero button,
+  .track-hero button {
+    font-size: 15px;
+    padding: 12px 20px;
+  }
+
+  /* SERVICES */
+  .services {
+    padding: 40px 15px;
+  }
+
+  .service-box,
+  .service-card {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 18px;
+  }
+
+  /* REMOVE DUPLICATE SERVICES SECTION */
+  .services + .services {
+    display: none !important;
+  }
+
+  /* WHY CHOOSE US */
+  .why-choose {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .why-choose h2 {
+    font-size: 22px;
+  }
+
+  .why-choose p,
+  .why-choose li {
+    font-size: 14px;
+  }
+
+  /* FOOTER FIX */
+  footer {
+    padding: 35px 20px;
+    text-align: center;
+  }
+
+  footer .footer-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer h3 {
+    font-size: 16px;
+  }
+
+  footer p,
+  footer a {
+    font-size: 14px;
+  }
+
+  footer .quick-links {
+    margin-top: 20px;
+  }
+
+  /* REMOVE EXTRA SPACE AT BOTTOM */
+  footer .track-section {
+    padding: 20px 0;
+  }
+}
