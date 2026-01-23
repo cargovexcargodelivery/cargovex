@@ -948,3 +948,113 @@ footer {
     padding: 20px 0;
   }
 }
+/* ================================
+   MOBILE RESPONSIVE FIX (PRO)
+================================ */
+
+@media (max-width: 768px) {
+
+  /* GENERAL TEXT */
+  body {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  /* NAVBAR */
+  header {
+    padding: 14px 16px;
+  }
+
+  nav a {
+    font-size: 18px !important;
+    margin-left: 12px;
+  }
+
+  /* HERO SECTION */
+  .hero {
+    padding: 60px 16px;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 26px !important;
+    line-height: 1.3;
+  }
+
+  .hero p {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .hero button,
+  .hero .btn {
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+
+  /* SERVICES */
+  .services {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 40px 16px;
+  }
+
+  .service-card {
+    width: 100% !important;
+    padding: 20px;
+  }
+
+  .service-card h3 {
+    font-size: 18px;
+  }
+
+  .service-card p {
+    font-size: 15px;
+  }
+
+  /* WHY CHOOSE US */
+  .why {
+    padding: 40px 16px;
+    text-align: center;
+  }
+
+  .why h2 {
+    font-size: 22px;
+  }
+
+  .why ul {
+    padding: 0;
+  }
+
+  .why li {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 40px 16px;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+  }
+
+  .footer-container h3 {
+    font-size: 18px;
+  }
+
+  .footer-container p,
+  .footer-container a {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background: red !important;
+  }
+}
